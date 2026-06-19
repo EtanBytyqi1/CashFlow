@@ -1,42 +1,47 @@
 # CashFlow
-💰 What is CashFlow?
-CashFlow is a simple, easy-to-use web tool designed to help you track your money. It lets you log how much money you make (Income) and how much you spend (Expenses) so you always know your exact budget in real-time.
+## 💰 CashFlow: Beginner's Guide
 
-📖 How to Use the App
-1. Check Your Dashboard
-At the top, you will see three main cards:
+**CashFlow** is a simple, easy-to-use web app designed to help you track your money. It logs your income and expenses so you always know your exact budget in real time.
 
-Balance: The total amount of money you have left (Income minus Expenses).
+---
 
-Income: Total money you have earned (Green).
+## 📖 User Manual
 
-Expenses: Total money you have spent (Red).
+### 1. The Dashboard (Your Overview)
 
-2. Add a Transaction
-To log a new financial activity:
+At the very top, three visual cards track your financial health instantly:
 
-Type the number in the Amount box (e.g., 12.50).
+* **Balance:** The total money you have left right now (Income minus Expenses).
+* **Income:** The total amount of all money earned (shown in **green**).
+* **Expenses:** The total amount of all money spent (shown in **red**).
 
-Type what it was for in the Description box (e.g., Lunch or Salary).
+### 2. Adding a Transaction
 
-Click ➕ Income if you made money, or ➖ Expense if you spent money.
+To log a new financial activity, follow these three steps:
 
-3. Filter Your History
-Scroll down to see your Transactions list. You can use the buttons to filter what you see:
+1. **Amount:** Type the numerical value (e.g., `15.50`).
+2. **Description:** Type what it was for (e.g., `Groceries` or `Freelance Work`).
+3. **Action:** Click **➕ Income** if you earned it, or **➖ Expense** if you spent it.
 
-Click All to see everything.
+### 3. Managing Your History
 
-Click Income to only see money coming in.
+As you add entries, they will appear in the **Transactions** list below.
 
-Click Expense to only see money going out.
+* **Filter:** Use the **All**, **Income**, or **Expense** buttons to sort through your history.
+* **Delete:** Made a mistake? Click the trash bin (**🗑**) next to any item to remove it. The dashboard totals will instantly recalculate.
 
-4. Fix Mistakes
-If you made an error, click the trash can icon (🗑) next to any transaction, confirm the popup, and the app will instantly fix your totals!
+### 4. Customizing Your View
 
-5. Try Dark Mode
-Click the 🌙 Dark Mode button at the top right if you prefer a dark, eye-friendly screen.
+* Click the **🌙 Dark Mode** button at the top right to switch to a dark background for comfortable night viewing.
 
-🛠️ How it Works (For Creators)
-HTML & Tailwind CSS: Creates the clean visual look and handles the dark mode colors.
+---
 
-JavaScript: Does all the math, updates the numbers instantly when you click buttons, and safely removes items when deleted. (Note: Refreshing the browser page resets the data back to zero).
+## 🛠️ Tech Stack (How it Works)
+
+| Component | What it Handles |
+| --- | --- |
+| **HTML** | The underlying structure of the page. |
+| **Tailwind CSS** | The clean layout, button colors, animations, and dark mode toggling. |
+| **JavaScript** | The math calculations, adding/deleting logic, and instant UI updates. |
+
+> ⚠️ **Note:** This app runs entirely in your browser window. Refreshing or closing the page will reset all totals and history back to zero.
